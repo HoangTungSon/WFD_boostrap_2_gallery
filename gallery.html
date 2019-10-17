@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+    div.gallery {
+        border: 1px solid #ccc;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+    }
+
+    @media only screen and (max-width: 700px){
+        .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+        }
+    }
+
+    @media only screen and (max-width: 500px){
+        .responsive {
+            width: 100%;
+        }
+    }
+
+</style>
+<body>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="images/small-memory-lp.jpg">
+            <img src="images/small-memory-lp.jpg" alt="memory">
+        </a>
+        <div class="desc">Small_memory_lp</div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="images/small-memory-lp.jpg">
+            <img src="images/small-memory-lp.jpg" alt="memory">
+        </a>
+        <div class="desc">Small_memory_lp</div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="images/small-memory-lp.jpg">
+            <img src="images/small-memory-lp.jpg" alt="memory">
+        </a>
+        <div class="desc">Small_memory_lp</div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="images/small-memory-lp.jpg">
+            <img src="images/small-memory-lp.jpg" alt="memory">
+        </a>
+        <div class="desc">Small_memory_lp</div>
+    </div>
+</div>
+
+</body>
+</html>
